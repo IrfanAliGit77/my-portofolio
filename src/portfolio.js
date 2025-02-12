@@ -50,15 +50,35 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What I do ?",
+  subTitle: "MULTIFACETED DEVELOPER WITH EXPERTISE IN MACHINE LEARNING DEV, DATA SCIENTISTS/DATA ANALYTICS, FULL STACK WEB DEV, AND NETWORK ADMINISTRATION",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Build scalable Fullstack Web Applications using Laravel and React, including database architecture, RESTful API development, and CI/CD deployment with Docker and Firebase."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Manage Big Data workflows from Data Collection and Cleaning to Data Visualization and Reporting, ensuring insightful decision-making."
+    ),
+    emoji(
+      "⚡ Develop and deploy Machine Learning models using TensorFlow and Scikit-Learn, covering Data Preprocessing, Model Training, and API/Cloud Integration."
+    ),
+    emoji(
+      "⚡ Perform Data Analysis and Business Intelligence using Python (Pandas, NumPy) and Power BI/Tableau, delivering actionable insights through statistical modeling and visualization."
+    ),
+    emoji(
+      "⚡ Handle Database Management with SQL (MySQL, PostgreSQL) and NoSQL (MongoDB), optimizing performance and ensuring data consistency."
+    ),
+    emoji(
+      "⚡ Implement Cloud Computing solutions with Google Cloud, Firebase, and Docker, ensuring scalability and efficiency."
+    ),
+    emoji(
+      "⚡ Configure and secure network infrastructure using Router, Switch, Mikrotik, and Network Security protocols, including VPN setup and firewall management."
+    ),
+    emoji(
+      "⚡ Utilize Agile Methodologies (Scrum, Kanban) to ensure efficient project development and team collaboration."
+    ),
+    emoji(
+      "⚡ Maintain version control and collaborative development using Git, GitHub, and GitLab."
     )
   ],
 
@@ -67,23 +87,23 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
+      skillName: "html",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "css",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "ML dev",
+      fontAwesomeClassname: "fas fa-microchip"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "react.js",
       fontAwesomeClassname: "fab fa-react"
     },
     {
@@ -91,8 +111,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "AI",
+      fontAwesomeClassname: "fas fa-robot"
     },
     {
       skillName: "npm",
@@ -103,8 +123,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "laravel",
+      fontAwesomeClassname: "fab fa-laravel"
     },
     {
       skillName: "firebase",
@@ -117,7 +137,39 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
-    }
+    },
+    {
+      skillName: "power BI/tableau",
+      fontAwesomeClassname: "fas fa-chart-pie"
+    },
+    {
+      skillName: "network",
+      fontAwesomeClassname: "fas fa-rss"
+    },
+    {
+      skillName: "data scientist/analyst",
+      fontAwesomeClassname: "fas fa-chart-line"
+    },
+    {
+      skillName: "mikrotik",
+      fontAwesomeClassname: "fas fa-satellite-dish"
+    },
+    {
+      skillName: "cloud computing",
+      fontAwesomeClassname: "fas fa-cloud"
+    },
+    {
+      skillName: "github/gitlab",
+      fontAwesomeClassname: "fab fa-github-alt"
+    },
+    {
+      skillName: "net security",
+      fontAwesomeClassname: "fas fa-user-shield"
+    },
+    {
+      skillName: "agile method",
+      fontAwesomeClassname: "fas fa-project-diagram"
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
