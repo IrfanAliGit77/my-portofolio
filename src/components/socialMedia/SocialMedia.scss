@@ -36,6 +36,13 @@
   background-color: $linkedin;
 }
 
+.telegram i {
+  background-color: $telegram;
+}
+.discord i {
+  background-color: $discord;
+}
+
 .github i {
   background-color: $github;
 }
@@ -71,6 +78,8 @@
 /* Hover Transition */
 .twitter i:hover,
 .google i:hover,
+.telegram i:hover,
+.discord i:hover,
 .gitlab i:hover,
 .github i:hover,
 .linkedin i:hover,
