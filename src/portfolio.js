@@ -478,9 +478,16 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "I am eager to contribute my skills to your team and grow professionally. Feel free to reach out 👋 \n I look forward to the opportunity of joining your company. 🏢",
+    // (
+    //   <>
+    //     I am eager to contribute my skills to your team and grow professionally. Feel free to reach out 👋
+    //     <br />
+    //     I look forward to the opportunity of joining your company. 🏢
+    //   </>
+    // ),
+  number: " 📞 +62 81555923886",
+  email_address: "📩 muhirfanali77@gmail.com"
 };
 
 // Twitter Section
