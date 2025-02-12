@@ -20,26 +20,28 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Irfan's Portfolio",
+  title: "Hi, I'm Muh. Irfan Ali",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A graduate of Informatics Engineering from Politeknik Negeri Malang with expertise in Machine Learning Developer, Data Scientist, Fullstack Web Developer, and Network Administrator 🚀 Proficient in Python, SQL, and Git, with experience in ML modeling, data analysis, database management, and cloud computing. Skilled in building scalable web applications using Laravel and JavaScript, as well as network configuration and security. Adaptable, analytical, and problem-solving oriented, with strong collaboration and communication skills. Earned a 3.79 GPA with Cum Laude honors, gaining hands-on experience through full-time roles and internships."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1TvmU1GwExCD-tz-FBWu3QHiv1_FnvB7a/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/IrfanAliGit77",
+  linkedin: "https://www.linkedin.com/in/muh-irfan-ali77/",
+  gmail: "muhirfanali77@gmail.com",
+  gitlab: "https://gitlab.com/IrfanAliGit77",
+  telegram: "https://t.me/gentanali",
+  discord: "https://discordapp.com/users/709762878038736998",
+  //facebook: "https://www.facebook.com/profile.php?id=100006934518579",
+  //medium: "https://medium.com/@saadpasta",
+  //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
