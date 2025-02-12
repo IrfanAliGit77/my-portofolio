@@ -9,9 +9,11 @@ import {
   skillsSection,
   openSource,
   blogSection,
+  techStack,
   talkSection,
   achievementSection,
-  resumeSection
+  resumeSection,
+  educationInfo
 } from "../../portfolio";
 
 function Header() {
@@ -23,6 +25,8 @@ function Header() {
   const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
   const viewResume = resumeSection.display;
+  const viewTech = techStack.display;
+  const viewEdu = educationInfo.display;
 
   return (
     <Headroom>
@@ -41,9 +45,24 @@ function Header() {
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
         <ul className={isDark ? "dark-menu menu" : "menu"}>
+          {viewResume && (
+            <li>
+              <a href="#resume">Resume</a>
+            </li>
+          )}
           {viewSkills && (
             <li>
               <a href="#skills">Skills</a>
+            </li>
+          )}
+          {viewTech && (
+            <li>
+              <a href="#techProficiency">Proficiency</a>
+            </li>
+          )}
+          {viewTech && (
+            <li>
+              <a href="#education">Education</a>
             </li>
           )}
           {viewExperience && (
@@ -69,11 +88,6 @@ function Header() {
           {viewTalks && (
             <li>
               <a href="#talks">Talks</a>
-            </li>
-          )}
-          {viewResume && (
-            <li>
-              <a href="#resume">Resume</a>
             </li>
           )}
           <li>

@@ -51,7 +51,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do ?",
-  subTitle: "MULTIFACETED DEVELOPER WITH EXPERTISE IN MACHINE LEARNING DEV, DATA SCIENTISTS/DATA ANALYTICS, FULL STACK WEB DEV, AND NETWORK ADMINISTRATION",
+  subTitle: "MULTIFACETED DEVELOPER WITH EXPERTISE IN MACHINE LEARNING DEV, DATA SCIENTISTS/DATA ANALYTICS, FULL STACK WEB DEV, AND NETWORK ADMINISTRATION.",
   skills: [
     emoji(
       "⚡ Build scalable Fullstack Web Applications using Laravel and React, including database architecture, RESTful API development, and CI/CD deployment with Docker and Firebase."
@@ -180,23 +180,44 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Politeknik Negeri Malang",
+      logo: require("./assets/images/polinema.png"),
+      subHeader: "Bachelor of Applied Science in Informatics Engineering",
+      duration: "Sep 2020 - Feb 2025",
+      desc: "Achievements :",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed Employee Performance Assessment System for PT INKA as my thesis (2025).",
+        "Built an LMS for standardized employee training and compliance across the PT INKA (2023)",
+        "Developed FIT (Find Indonesia Tourism), a tourism recommendation app (ML DEV) at Bangkit Academy (2023).",
+        "Public Speaker/Expert Facilitator for ICT Training in 3 sub-districts of Blitar City with Diskominfotik Blitar (2023).",
+        "Built a shallot price prediction model for Nganjuk (2023).",
+        "Expert Facilitator for RTIK Blitar Talk on Digital Literacy (2023).",
+        "Collaborated with Diskominfotik Surabaya for stunting data collection and visualization (2023).",
+        "Developed SITAHIR (Sistem Informasi Tagihan Air) for Sumberarum, Kec. Wates, Kabupaten Blitar (2022).",
+        "Created a Point of Sales (POS) system for Toserba, web-based with Laravel (2022).",
+        "Certified Teknisi Utama Jaringan Komputer, Junior Web Developer, and Network Administrator (BNSP, 2021).",
+        "National Seminar Committee on Cyber Security Strategy, Politeknik Negeri Malang (2021).",
+        "Expert Facilitator for National Digital Literacy, Kominfo RI (34 provinces, 514 districts, Oct-Nov 2021).",
+        "Moderator at Pekan Prestasi Mahasiswa Bidikmisi/KIP Kuliah of Politeknik Negeri Malang (2021).",
+        "Soft Skills Training in Interpersonal & English, Digital Talent Scholarship, Kominfo (2021).",
+        "Speaker/Tutor for IT Training at Diskominfotik Blitar (2020).",
+        "Moderator for Webinar on Computational Thinking at Politeknik Negeri Malang (2020)."
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "SMKN 1 Udanawu",
+      logo: require("./assets/images/smk.png"),
+      subHeader: "Computer Engineering and Networking",
+      duration: "Sep 2017 - Aug 2020",
+      desc: "Achievements :",
+      descBullets: [
+        "Consistently ranked 1st in class during grades 10, 11, and 12, and achieved 1st parallel ranking school-wide during USBN.",
+        "Excelled in debate competitions, winning at both regional and provincial levels.",
+        "Earned a Mikrotik certification through a county-wide program for vocational schools in Blitar.",
+        "Gained in-depth knowledge of network operations, including configuring and troubleshooting devices such as routers, hubs/switches, and repeaters.",
+        "Acquired comprehensive skills in computer hardware and software, enabling effective troubleshooting and repair of computers and laptops.",
+        "Demonstrated technical proficiency in understanding and maintaining IT infrastructure, contributing to practical and theoretical expertise in networking and computer systems."
+      ]
     }
   ]
 };
@@ -207,19 +228,28 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Full Stack Developer", //Insert stack or technology you have experience in
+      progressPercentage: "92%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Machine Learning Developer",
+      progressPercentage: "86%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Data Scientist/Data Analyst",
+      progressPercentage: "96%"
+    },
+    {
+      Stack: "Network Administrator/IT Staff",
+      progressPercentage: "98%"
+    },
+    {
+      Stack: "Public Speaker/Expert Facilitator",
+      progressPercentage: "91%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  display: true
 };
 
 // Work experience section
