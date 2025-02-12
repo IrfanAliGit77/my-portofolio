@@ -26,7 +26,7 @@ const greeting = {
     "A graduate of Informatics Engineering from Politeknik Negeri Malang with expertise in Machine Learning Developer, Data Scientist, Fullstack Web Developer, and Network Administrator 🚀 Proficient in Python, SQL, and Git, with experience in ML modeling, data analysis, database management, and cloud computing. Skilled in building scalable web applications using Laravel and JavaScript, as well as network configuration and security. Adaptable, analytical, and problem-solving oriented, with strong collaboration and communication skills. Earned a 3.79 GPA with Cum Laude honors, gaining hands-on experience through full-time roles and internships."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1TvmU1GwExCD-tz-FBWu3QHiv1_FnvB7a/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1NffUYAAeOC5Vp0jA9GE2r0HK-4kxrBKU/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -186,8 +186,8 @@ const educationInfo = {
       duration: "Sep 2020 - Feb 2025",
       desc: "Achievements :",
       descBullets: [
-        "Developed Employee Performance Assessment System for PT INKA as my thesis (2025).",
-        "Built an LMS for standardized employee training and compliance across the PT INKA (2023)",
+        "Developed Employee Performance Assessment System for PT INKA Madiun as my thesis (2025).",
+        "Built an LMS for standardized employee training and compliance across the PT INKA Madiun (2023)",
         "Developed FIT (Find Indonesia Tourism), a tourism recommendation app (ML DEV) at Bangkit Academy (2023).",
         "Public Speaker/Expert Facilitator for ICT Training in 3 sub-districts of Blitar City with Diskominfotik Blitar (2023).",
         "Built a shallot price prediction model for Nganjuk (2023).",
@@ -258,29 +258,52 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Information Technology Staff RTIK Kota Blitar",
+      company: "Diskominfotik Kota Blitar",
+      companylogo: require("./assets/images/dinas.png"),
+      date: "Mar 2019 - Present",
+      desc: "Achievements on Diskominfotik Kota Blitar :",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Represented RTIK Kota Blitar and Diskominfotik Kota Blitar at national events in Bali (2020), Sidoarjo (2021), Surabaya (2022), and Semarang (2023), which included strategic meetings for representatives from RTIK and Diskominfotik across Indonesia.",
+        "Led digital literacy workshops in Blitar, training UMKM on digital marketing, e-commerce, and cybersecurity.",
+        "Progressed from support roles to leadership, driving impactful programs and strengthening community partnerships."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Full Stack Developer Intern",
+      company: "PT Industri Kereta Api",
+      companylogo: require("./assets/images/inka.png"),
+      date: "Aug 2023 – Jan 2024",
+      desc: "Achievements on PT INKA (Persero) – Madiun :",
+      descBullets: [
+        "Developed an Employee Performance Assessment System, reducing evaluation time by 90% and enabling data-driven salary adjustments.",
+        "Built an LMS for standardized employee training and compliance across the organization. I also designed the BOD BOC INKA Group System interface, enhancing executives' access to data.",
+        "Utilized PHP, Laravel, and JavaScript to create scalable, efficient web applications following Agile practices."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Machine Learning Developer/Data Scientist Intern",
+      company: "Bangkit Academy",
+      companylogo: require("./assets/images/bangkit.jpg"),
+      date: "Feb 2023 – Jul 2023",
+      desc: "Achievements on Bangkit Academy (Cohort IV) - Jakarta",
+      descBullets: [
+        "Gained hands-on experience in data extraction, preprocessing, visualization, and clustering for machine learning workflows.",
+        "Developed a rating system (0-5 stars) and personalized tourism recommendations by processing thousands of data points across Indonesia.",
+        "Collaborated with a multidisciplinary team to integrate ML models as backend services for mobile and cloud applications."
+      ]
+    },
+    {
+      role: "Network Administrator",
+      company: "PT Data Buana Nusantara",
+      companylogo: require("./assets/images/dbn.png"),
+      date: "Feb 2019 – Jul 2019",
+      desc: "Achievements on DBN Company - Blitar :",
+      descBullets: [
+        "Managed network installations and infrastructure across Tulungagung, Kediri, Blitar, and Jombang, ensuring seamless connectivity for homes, offices, and schools.",
+        "Designed and implemented network architectures, including routers, switches, and LAN setups, while providing technical support and troubleshooting for clients.",
+        "Oversaw transmitter tower installations, boosting connectivity in underserved areas and contributing to a 5–10% monthly revenue increase with hundreds of Wi-Fi setups."
+      ]
     }
   ]
 };
