@@ -37,8 +37,11 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/muh-irfan-ali77/",
   gmail: "muhirfanali77@gmail.com",
   gitlab: "https://gitlab.com/IrfanAliGit77",
+  whatsapp: "https://wa.me/+6281555923886",
   telegram: "https://t.me/gentanali",
+  instagram: "https://www.instagram.com/gentans_77/",
   discord: "https://discordapp.com/users/709762878038736998",
+  microsite: "https://s.id/muhirfanali77",
   //facebook: "https://www.facebook.com/profile.php?id=100006934518579",
   //medium: "https://medium.com/@saadpasta",
   //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
@@ -50,7 +53,7 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do ?",
+  title: "What I do❓",
   subTitle: "MULTIFACETED DEVELOPER WITH EXPERTISE IN MACHINE LEARNING DEV, DATA SCIENTISTS/DATA ANALYTICS, FULL STACK WEB DEV, AND NETWORK ADMINISTRATION.",
   skills: [
     emoji(
@@ -229,11 +232,11 @@ const techStack = {
   experience: [
     {
       Stack: "Full Stack Developer", //Insert stack or technology you have experience in
-      progressPercentage: "92%" //Insert relative proficiency in percentage
+      progressPercentage: "95%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Machine Learning Developer",
-      progressPercentage: "86%"
+      progressPercentage: "96%"
     },
     {
       Stack: "Data Scientist/Data Analyst",
@@ -241,11 +244,11 @@ const techStack = {
     },
     {
       Stack: "Network Administrator/IT Staff",
-      progressPercentage: "98%"
+      progressPercentage: "95%"
     },
     {
       Stack: "Public Speaker/Expert Facilitator",
-      progressPercentage: "91%"
+      progressPercentage: "94%"
     }
   ],
   displayCodersrank: false, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -262,7 +265,7 @@ const workExperiences = {
       company: "Diskominfotik Kota Blitar",
       companylogo: require("./assets/images/dinas.png"),
       date: "Mar 2019 - Present",
-      desc: "Achievements on Diskominfotik Kota Blitar :",
+      desc: "Achievements at Diskominfotik Kota Blitar :",
       descBullets: [
         "Represented RTIK Kota Blitar and Diskominfotik Kota Blitar at national events in Bali (2020), Sidoarjo (2021), Surabaya (2022), and Semarang (2023), which included strategic meetings for representatives from RTIK and Diskominfotik across Indonesia.",
         "Led digital literacy workshops in Blitar, training UMKM on digital marketing, e-commerce, and cybersecurity.",
@@ -274,7 +277,7 @@ const workExperiences = {
       company: "PT Industri Kereta Api",
       companylogo: require("./assets/images/inka.png"),
       date: "Aug 2023 – Jan 2024",
-      desc: "Achievements on PT INKA (Persero) – Madiun :",
+      desc: "Achievements at PT INKA (Persero) – Madiun :",
       descBullets: [
         "Developed an Employee Performance Assessment System, reducing evaluation time by 90% and enabling data-driven salary adjustments.",
         "Built an LMS for standardized employee training and compliance across the organization. I also designed the BOD BOC INKA Group System interface, enhancing executives' access to data.",
@@ -286,7 +289,7 @@ const workExperiences = {
       company: "Bangkit Academy",
       companylogo: require("./assets/images/bangkit.jpg"),
       date: "Feb 2023 – Jul 2023",
-      desc: "Achievements on Bangkit Academy (Cohort IV) - Jakarta",
+      desc: "Achievements at Bangkit Academy (Cohort IV) - Jakarta",
       descBullets: [
         "Gained hands-on experience in data extraction, preprocessing, visualization, and clustering for machine learning workflows.",
         "Developed a rating system (0-5 stars) and personalized tourism recommendations by processing thousands of data points across Indonesia.",
@@ -298,7 +301,7 @@ const workExperiences = {
       company: "PT Data Buana Nusantara",
       companylogo: require("./assets/images/dbn.png"),
       date: "Feb 2019 – Jul 2019",
-      desc: "Achievements on DBN Company - Blitar :",
+      desc: "Achievements at DBN Company - Blitar :",
       descBullets: [
         "Managed network installations and infrastructure across Tulungagung, Kediri, Blitar, and Jombang, ensuring seamless connectivity for homes, offices, and schools.",
         "Designed and implemented network architectures, including routers, switches, and LAN setups, while providing technical support and troubleshooting for clients.",
@@ -319,29 +322,238 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "My Projects 💻",
+  subtitle: "I HAVE CONTRIBUTED TO THE SUCCESS OF SEVERAL STARTUPS AND MAJOR COMPANIES BY BUILDING IMPACTFUL TECH SOLUTIONS. ✅ I AM EXCITED TO BRING MY SKILLS AND EXPERIENCE TO NEW CHALLENGES, AND I LOOK FORWARD TO THE OPPORTUNITY TO GROW WITH YOUR TEAM. 🚁",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/iknows.png"),
+      projectName: "I-KNOWS PT INKA",
+      projectDesc: "I-KNOWS is a Laravel-based web app for PT INKA's employee performance assessment. It provides role-specific interfaces for reporting and evaluation. Monthly performance reviews impact promotions and salary increases.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Visit Project",
+          url: "https://gitlab.com/IrfanAliGit77/ta-inka-lms.git"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/lms.png"),
+      projectName: "INKA-LMS PT INKA",
+      projectDesc: "INKA-LMS is a web-based system designed to enhance human resources at PT INKA across all employee levels. It streamlines learning delivery, skill assessment, and development of both hard and soft skills, including material distribution and final evaluations.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Visit Project",
+          url: "https://gitlab.com/agriirga/inka-lms.git"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/fit.png"),
+      projectName: "FIT (Find Indonesia Tourism)",
+      projectDesc: "FIT is a mobile app that recommends tourist spots in Indonesia using mobile development, machine learning, and cloud computing. It helps tourists find nearby attractions with user ratings and reviews, and suggests the best routes to their destinations.",
+      footerLink: [
+        {
+          name: "Visit Project",
+          url: "https://github.com/nafiulirsad/findindonesiatourism.git"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/sitahir.png"),
+      projectName: "SITAHIR (Sistem Informasi Tagihan Air)",
+      projectDesc: "SITAHIR is an information system for water billing in Sumberarum, Wates, Blitar. It streamlines billing processes, offers online payment options, and provides relevant information. Users can also report issues, ensuring quick response and repairs.",
+      footerLink: [
+        {
+          name: "Visit Project",
+          url: "https://github.com/IrfanAliGit77/sitahir.git"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/pos.png"),
+      projectName: "Point of Sales Toserba",
+      projectDesc: "POS Toserba is an application designed to simplify cashier transactions in minimarkets. It manages products, sales, stock purchases, and supplier data. It supports barcode scanning and can print customer receipts, ensuring fast and efficient transactions.",
+      footerLink: [
+        {
+          name: "Visit Project",
+          url: "https://github.com/IrfanAliGit77/toserba.git"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/talk.png"),
+      projectName: "Talk Programmer",
+      projectDesc: "Talk Programmer is an information system that connects programmers worldwide to share knowledge, collaborate, and explore business ideas like make projects together. Similar to LinkedIn, it also facilitates job searches for programmers and recruitment for companies.",
+      footerLink: [
+        {
+          name: "Visit Project",
+          url: "https://www.figma.com/design/isMy6ywRhdyKriUEBJO08t/Untitled?node-id=10-83&t=bHEARQ80D6LGN5mn-1"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/pyt.png"),
+      projectName: "NLP + CNN - Machine Learning",
+      projectDesc: "This Machine Learning project powers a tourism search engine using NLP, sentiment analysis, and CNN. It filters results by category, location, ratings, and user reviews, with personalized recommendations and a ranking algorithm for relevance.",
+      footerLink: [
+        {
+          name: "Visit Project",
+          url: "https://colab.research.google.com/drive/1ZWYDFsc5vC6zm08HCpvbF4F95newoBJK?usp=sharing"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/pyth.png"),
+      projectName: "Publication of Scientific Papers - ML",
+      projectDesc: "This project analyzes a humanitarian organization's dataset using classification and regression models to predict team outcomes and volunteer impact. It includes data visualization, model evaluation with Confusion Matrix and ROC, and hyperparameter tuning for optimization.",
+      footerLink: [
+        {
+          name: "Visit Project",
+          url: "https://colab.research.google.com/drive/17p11aEjvaztCE9ZxVmIZmjRkE5-idVG7?usp=sharing"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/vidio.png"),
+      projectName: "Management Dataset for Vidio.com",
+      projectDesc: "I conducted exploratory data analysis using Google Colab for its cloud-based Jupyter environment with pre-installed data science libraries. The analysis revealed that 58% of users prefer the web-mobile platform for watching Vidio.com. This insight was visualized using a pie chart created with Pandas and Matplotlib in Colab.",
+      footerLink: [
+        {
+          name: "Visit Project",
+          url: "https://colab.research.google.com/drive/17XS4yy4sz3YLYQky6xTDzSyjCv-0C8xq?usp=sharing"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/bawang.png"),
+      projectName: "Prediction for Shallot Prices in Nganjuk",
+      projectDesc: "Predicted the selling price of shallots in Nganjuk using Linear Regression and classified price conditions using Decision Tree and SVM. Achieved R² of 0.846 (training) and 0.930 (testing), indicating model stability. Both classifiers reached perfect accuracy (1.0), proving high suitability for the dataset.",
+      footerLink: [
+        {
+          name: "Visit Project",
+          url: "https://colab.research.google.com/drive/1VnmNxS8DkwaAyCNWMoBVh7Vt--gjScW8?usp=sharing"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/sby.png"),
+      projectName: "Surabaya Stunting Cases",
+      projectDesc: "I collaborated with Diskominfotik Kota Surabaya to analyze and visualize stunting cases across Surabaya. Using comprehensive datasets, I conducted data cleaning, analysis, and visualization with Tableau. The insights identified high-risk areas, supporting strategic public health interventions and policy planning.",
+      footerLink: [
+        {
+          name: "Visit Project",
+          url: "https://docs.google.com/spreadsheets/d/1akkvYkmduKBt9HD9-Zeb043zhhh-Fk_1/edit?usp=sharing&ouid=118328961484458204393&rtpof=true&sd=true"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/bike.png"),
+      projectName: "Bike Stores - Power BI",
+      projectDesc: "I conducted end-to-end data analysis on bike store sales, from data cleaning to visualization using Power BI. Comprehensive insights were derived on sales trends, customer demographics, and product performance, aiding strategic business decisions and growth planning.",
+      footerLink: [
+        {
+          name: "Visit Project",
+          url: "https://drive.google.com/file/d/1bF28RjuZI0Rbsx_MmFqrxQVjTAsaPVDt/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/sko.png"),
+      projectName: "Data Management BOS - DBMS",
+      projectDesc: "Managed BOS fund distribution and utilization using DBMS. Developed procedures for posting plans, transfer receipts, acceptance confirmations, and verification by school committees and the public. Integrated data from schools, banks, BOS components, and fund receipts, ensuring transparency and accountability in educational fund distribution.",
+      footerLink: [
+        {
+          name: "Visit Project",
+          url: "https://drive.google.com/file/d/1LkTamOtgStaua4_1NJkccrhivXKSaa4L/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/mikro.png"),
+      projectName: "Setting Mikrotik",
+      projectDesc: "Configured and integrated MikroTik infrastructure to establish an interconnected network with internet access. Managed comprehensive setup, including basic configurations, hotspot creation, loop prevention, queue management, and more, ensuring seamless connectivity and efficient network performance.",
+      footerLink: [
+        {
+          name: "Visit Explanation",
+          url: "https://www.linkedin.com/in/muh-irfan-ali77/overlay/experience/2192627136/multiple-media-viewer/?profileId=ACoAADgndQYBqU6oi00BNc6VNsSHSJyvS_mp2lw&treasuryMediaId=1739468903602"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/ap.png"),
+      projectName: "Setting Access Point",
+      projectDesc: "Configured and deployed access points to optimize wireless network coverage and connectivity. Managed end-to-end setup, including SSID configuration, security settings, channel optimization, and seamless integration with existing network infrastructure, ensuring reliable and high-performance Wi-Fi access.",
+      footerLink: [
+        {
+          name: "Visit Explanation",
+          url: "https://www.linkedin.com/in/muh-irfan-ali77/overlay/experience/2192627136/multiple-media-viewer/?profileId=ACoAADgndQYBqU6oi00BNc6VNsSHSJyvS_mp2lw&treasuryMediaId=1739469096627"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/repair.jpg"),
+      projectName: "Troubleshooting Network",
+      projectDesc: "Diagnosed and resolved network issues to ensure optimal performance and minimal downtime. Utilized advanced troubleshooting techniques to identify connectivity problems, latency, and hardware failures. Implemented effective solutions, including reconfiguring network devices, updating firmware, and optimizing routing protocols.",
+      footerLink: [
+        {
+          name: "Visit Explanation",
+          url: "https://www.linkedin.com/in/muh-irfan-ali77/overlay/experience/2192627136/multiple-media-viewer/?profileId=ACoAADgndQYBqU6oi00BNc6VNsSHSJyvS_mp2lw&treasuryMediaId=1738763099383"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/comp.jpg"),
+      projectName: "Troubleshooting Hardware Software",
+      projectDesc: "Diagnosed and resolved hardware and software issues for networks, computers, and electronic devices, including printers and speakers. Ensured optimal performance through effective troubleshooting and configuration adjustments.",
+      footerLink: [
+        {
+          name: "Visit Explanation",
+          url: "https://www.linkedin.com/in/muh-irfan-ali77/overlay/experience/2192627136/multiple-media-viewer/?profileId=ACoAADgndQYBqU6oi00BNc6VNsSHSJyvS_mp2lw&treasuryMediaId=1739469322945"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/ict.jpg"),
+      projectName: "ICT Training",
+      projectDesc: "Delivered ICT training in 3 sub-districts of Blitar City, empowering UMKM with social media marketing and photo/video editing skills. Enhanced digital literacy to help entrepreneurs attract customers and grow their businesses.",
+      footerLink: [
+        {
+          name: "Visit Explanation",
+          url: "https://www.linkedin.com/in/muh-irfan-ali77/overlay/experience/2192623800/multiple-media-viewer/?profileId=ACoAADgndQYBqU6oi00BNc6VNsSHSJyvS_mp2lw&treasuryMediaId=1738762086095"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/litdig.png"),
+      projectName: "National Digital Literacy",
+      projectDesc: "Spoke at Kominfo's National Digital Literacy event to over 300 online participants, focusing on shifting from consumerism to productivity. Shared strategies for leveraging social media and e-commerce for digital marketing, online sales, and affiliate marketing, empowering effective technology use.",
+      footerLink: [
+        {
+          name: "Visit Explanation",
+          url: "https://www.linkedin.com/in/muh-irfan-ali77/overlay/experience/2192623800/multiple-media-viewer/?profileId=ACoAADgndQYBqU6oi00BNc6VNsSHSJyvS_mp2lw&treasuryMediaId=1738018391855"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/blt.jpg"),
+      projectName: "RTIK Blitar Talk",
+      projectDesc: "Spoke at RTIK Blitar Talk in the Blitar Makin Cakap Digital webinar series, sharing tips for productivity in the digital era. Covered digital tools, time management, and leveraging technology for growth, empowering participants to enhance their digital literacy and productivity.",
+      footerLink: [
+        {
+          name: "Visit Explanation",
+          url: "https://www.linkedin.com/in/muh-irfan-ali77/overlay/experience/2563566810/multiple-media-viewer/?profileId=ACoAADgndQYBqU6oi00BNc6VNsSHSJyvS_mp2lw&treasuryMediaId=1738762417593"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/RTIK.jpg"),
+      projectName: "RTIK Nasional Meeting",
+      projectDesc: "Joined the RTIK Nasional development forum at Hotel Aston Sidoarjo, collaborating with representatives nationwide to address regional challenges. Focused on enhancing tech literacy, improving human resources, and sharing initiatives to foster digital awareness and community empowerment.",
+      footerLink: [
+        {
+          name: "Visit Explanation",
+          url: "https://www.linkedin.com/in/muh-irfan-ali77/overlay/experience/2563566810/multiple-media-viewer/?profileId=ACoAADgndQYBqU6oi00BNc6VNsSHSJyvS_mp2lw&treasuryMediaId=1738016937087"
         }
       ]
     }
