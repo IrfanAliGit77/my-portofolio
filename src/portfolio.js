@@ -20,7 +20,7 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Irfan's Portfolio",
+  username: "Irfan Ali Portfolio",
   title: "Hi, I'm Muh. Irfan Ali",
   subTitle: emoji(
     "A graduate of Informatics Engineering from Politeknik Negeri Malang with expertise in Machine Learning Developer, Data Scientist, Fullstack Web Developer, and Network Administrator 🚀 Proficient in Python, SQL, and Git, with experience in ML modeling, data analysis, database management, and cloud computing. Skilled in building scalable web applications using Laravel and JavaScript, as well as network configuration and security. Adaptable, analytical, and problem-solving oriented, with strong collaboration and communication skills. Earned a 3.79 GPA with Cum Laude honors, gaining hands-on experience through full-time roles and internships."
