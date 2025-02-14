@@ -114,7 +114,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "AI",
+      skillName: "artificial intelligence",
       fontAwesomeClassname: "fas fa-robot"
     },
     {
@@ -150,7 +150,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-rss"
     },
     {
-      skillName: "data scientist/analyst",
+      skillName: "data scientist",
       fontAwesomeClassname: "fas fa-chart-line"
     },
     {
@@ -287,7 +287,7 @@ const workExperiences = {
     {
       role: "Machine Learning Developer/Data Scientist Intern",
       company: "Bangkit Academy",
-      companylogo: require("./assets/images/bangkit.jpg"),
+      companylogo: require("./assets/images/bangkit2.jpg"),
       date: "Feb 2023 – Jul 2023",
       desc: "Achievements at Bangkit Academy (Cohort IV) - Jakarta",
       descBullets: [
@@ -355,7 +355,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Project",
-          url: "https://github.com/nafiulirsad/findindonesiatourism.git"
+          url: "https://github.com/BangkitCapstoneFIT"
         }
       ]
     },
@@ -492,7 +492,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/repair.jpg"),
+      image: require("./assets/images/repair2.jpg"),
       projectName: "Troubleshooting Network",
       projectDesc: "Diagnosed and resolved network issues to ensure optimal performance and minimal downtime. Utilized advanced troubleshooting techniques to identify connectivity problems, latency, and hardware failures. Implemented effective solutions, including reconfiguring network devices, updating firmware, and optimizing routing protocols.",
       footerLink: [
@@ -503,7 +503,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/comp.jpg"),
+      image: require("./assets/images/comp2.jpg"),
       projectName: "Troubleshooting Hardware Software",
       projectDesc: "Diagnosed and resolved hardware and software issues for networks, computers, and electronic devices, including printers and speakers. Ensured optimal performance through effective troubleshooting and configuration adjustments.",
       footerLink: [
@@ -514,7 +514,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/ict.jpg"),
+      image: require("./assets/images/ict2.jpg"),
       projectName: "ICT Training",
       projectDesc: "Delivered ICT training in 3 sub-districts of Blitar City, empowering UMKM with social media marketing and photo/video editing skills. Enhanced digital literacy to help entrepreneurs attract customers and grow their businesses.",
       footerLink: [
