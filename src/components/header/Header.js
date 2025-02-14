@@ -9,9 +9,12 @@ import {
   skillsSection,
   openSource,
   blogSection,
+  techStack,
   talkSection,
   achievementSection,
-  resumeSection
+  resumeSection,
+  educationInfo,
+  bigProjects
 } from "../../portfolio";
 
 function Header() {
@@ -23,6 +26,10 @@ function Header() {
   const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
   const viewResume = resumeSection.display;
+  const viewTech = techStack.display;
+  const viewEdu = educationInfo.display;
+  const viewPro = bigProjects.display;
+  const viewGreeting = greeting.displayGreeting;
 
   return (
     <Headroom>
@@ -41,9 +48,29 @@ function Header() {
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
         <ul className={isDark ? "dark-menu menu" : "menu"}>
+          {viewGreeting && (
+            <li>
+              <a href="#greeting">About Me</a>
+            </li>
+          )}
+          {/* {viewResume && (
+            <li>
+              <a href="#resume">Resume</a>
+            </li>
+          )} */}
           {viewSkills && (
             <li>
               <a href="#skills">Skills</a>
+            </li>
+          )}
+          {viewTech && (
+            <li>
+              <a href="#techProficiency">Proficiency</a>
+            </li>
+          )}
+          {viewEdu && (
+            <li>
+              <a href="#education">Education</a>
             </li>
           )}
           {viewExperience && (
@@ -51,9 +78,9 @@ function Header() {
               <a href="#experience">Work Experiences</a>
             </li>
           )}
-          {viewOpenSource && (
+          {viewPro && (
             <li>
-              <a href="#opensource">Open Source</a>
+              <a href="#projects">Projects</a>
             </li>
           )}
           {viewAchievement && (
@@ -69,11 +96,6 @@ function Header() {
           {viewTalks && (
             <li>
               <a href="#talks">Talks</a>
-            </li>
-          )}
-          {viewResume && (
-            <li>
-              <a href="#resume">Resume</a>
             </li>
           )}
           <li>

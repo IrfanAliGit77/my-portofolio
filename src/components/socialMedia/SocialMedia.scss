@@ -36,6 +36,17 @@
   background-color: $linkedin;
 }
 
+.telegram i {
+  background-color: $telegram;
+}
+.discord i {
+  background-color: $discord;
+}
+
+.microsite i {
+  background-color: $microsite;
+}
+
 .github i {
   background-color: $github;
 }
@@ -68,9 +79,17 @@
   background-color: $instagram;
 }
 
+.whatsapp i {
+  background-color: $whatsapp;
+}
+
 /* Hover Transition */
 .twitter i:hover,
+.microsite i:hover,
 .google i:hover,
+.whatsapp i:hover,
+.telegram i:hover,
+.discord i:hover,
 .gitlab i:hover,
 .github i:hover,
 .linkedin i:hover,

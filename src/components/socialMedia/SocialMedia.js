@@ -8,14 +8,14 @@ export default function socialMedia() {
   }
   return (
     <div className="social-media-div">
-      {socialMediaLinks.github ? (
+      {socialMediaLinks.gmail ? (
         <a
-          href={socialMediaLinks.github}
-          className="icon-button github"
+          href={`mailto:${socialMediaLinks.gmail}`}
+          className="icon-button google"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-github"></i>
+          <i className="fas fa-envelope"></i>
           <span></span>
         </a>
       ) : null}
@@ -32,14 +32,14 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {socialMediaLinks.gmail ? (
+      {socialMediaLinks.github ? (
         <a
-          href={`mailto:${socialMediaLinks.gmail}`}
-          className="icon-button google"
+          href={socialMediaLinks.github}
+          className="icon-button github"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fas fa-envelope"></i>
+          <i className="fab fa-github"></i>
           <span></span>
         </a>
       ) : null}
@@ -67,6 +67,30 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
+      
+      {socialMediaLinks.whatsapp? (
+        <a
+          href={socialMediaLinks.whatsapp}
+          className="icon-button whatsapp"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-whatsapp"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+      {socialMediaLinks.telegram? (
+        <a
+          href={socialMediaLinks.telegram}
+          className="icon-button telegram"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-telegram"></i>
+          <span></span>
+        </a>
+      ) : null}
 
       {socialMediaLinks.instagram ? (
         <a
@@ -76,6 +100,30 @@ export default function socialMedia() {
           rel="noopener noreferrer"
         >
           <i className="fab fa-instagram"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+      {socialMediaLinks.discord? (
+        <a
+          href={socialMediaLinks.discord}
+          className="icon-button telegram"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-discord"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+      {socialMediaLinks.microsite ? (
+        <a
+          href={socialMediaLinks.microsite}
+          className="icon-button microsite"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fas fa-link"></i>
           <span></span>
         </a>
       ) : null}
