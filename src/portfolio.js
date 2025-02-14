@@ -567,54 +567,524 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆"),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Recognitions, Certifications, and Notable Achievements that demonstrate my expertise and commitment to excellence. ✨",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "MSIB INKA Certificate",
+      date: "Des 2023 - Present",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Completed the MSIB Program Cohort V as a Full Stack Developer Intern at PT INKA (Persero), contributing to system analysis, UI design, feature implementation, and User Acceptance Testing, strengthening my technical skills for real-world IT projects.",
+      image: require("./assets/images/ink.png"),
+      imageAlt: "ink Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "Verify Certification",
+          url: "https://drive.google.com/file/d/1CavpzMJoejIdf5K_76Zdx7DGp_LZMOj3/view?usp=sharing"
+        },
+      ]
+    },
+    {
+      title: "Junior Network Administrator",
+      date: "Nov 2021 - Present",
+      subtitle:
+        "Earned the Network Administrator Certification from DTS Kominfo, mastering network design, configuration, security, and troubleshooting. This validates my expertise in maintaining efficient and secure network systems.",
+      image: require("./assets/images/jna.png"),
+      imageAlt: "jna Logo",
+      footerLink: [
+        {
+          name: "Verify Certification",
+          url: "https://drive.google.com/file/d/1hKxpbiEF30AnqFzwD2zFqiWis-HkpvLR/view?usp=sharing"
+        },
+      ]
+    },
+    {
+      title: "Expert Facilitator/Public Speaker",
+      date: "Okt 2021 - Present",
+      subtitle:
+        "As an Expert Facilitator/Public Speaker for Kominfo's Digital Literacy Program, I delivered engaging sessions on digital skills, internet safety, and technology use. I simplified complex concepts, led interactive discussions, and empowered participants to navigate the digital world confidently, supporting national digital transformation.",
+      image: require("./assets/images/lit.png"),
+      imageAlt: "lit Logo",
+      footerLink: [
+        {
+          name: "Verify Nov 2021",
+          url: "https://drive.google.com/file/d/1JYTawRnkideFP6LZdPyXOcgClm2oMNQF/view?usp=sharing"
         },
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Verify Okt 2021",
+          url: "https://drive.google.com/file/d/19fenLWzcXonGMDVp4zkI3mKPhK2-PtrU/view?usp=sharing"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+      title: "Teknisi Utama Jaringan Komputer",
+      date: "Apr 2021 - Present",
+      subtitle: "The TUJK certification from BPPTIK Kominfo covers computer network maintenance and management, including installation, troubleshooting, and optimizing network components. It equips participants with the technical skills needed for diverse network setups and technologies.",
+      image: require("./assets/images/tujk.png"),
+      imageAlt: "tujk Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Verify Certification",
+          url: "https://drive.google.com/file/d/1l1pEZBDFOihpj_ZOxL8B6rCZ51fSLknH/view?usp=sharing"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Junior Web Developer",
+      date: "Aug 2021 - Aug 2025",
+      subtitle: "Earned the Junior Web Developer Certification from BNSP, validating my skills in HTML, CSS, JavaScript, and basic back-end development. It showcases my ability to build responsive websites, implement interactive features, and manage web servers, demonstrating readiness for professional web development roles.",
+      image: require("./assets/images/jwd.png"),
+      imageAlt: "tujk Logo",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Verify Certification",
+          url: "https://drive.google.com/file/d/1FgKjG-2WVqxVGVZzZC2sk_pczlpQ0MIO/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      title: "Basic Excel",
+      date: "Sep 2023 - Present",
+      subtitle: "Completed the Basic Excel course from Bisa AI Academy, gaining foundational skills in data entry, formatting, and basic formulas. I also learned essential functions for data analysis and creating charts for effective data visualization, enhancing my data management and analysis abilities.",
+      image: require("./assets/images/basic.png"),
+      imageAlt: "basic Logo",
+      footerLink: [
+        {
+          name: "Verify Certification",
+          url: "https://drive.google.com/file/d/19OpKlpU5olg1hrPi5ihXHueS9Qn9D12x/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      title: "Structuring Machine Learning Projects",
+      date: "Jun 2023 - Present",
+      subtitle: "The Structuring Machine Learning Projects certification from Coursera covers best practices for organizing ML projects, including problem scoping, workflow optimization, and ensuring reproducibility and scalability, enhancing efficiency in real-world applications.",
+      image: require("./assets/images/st.png"),
+      imageAlt: "st Logo",
+      footerLink: [
+        {
+          name: "Verify Certification",
+          url: "https://coursera.org/verify/QUPBUSCL8SSL"
+        }
+      ]
+    },
+    {
+      title: "Device-based Models with TensorFlow Lite",
+      date: "Jun 2023 - Present",
+      subtitle: "The Device-based Models with TensorFlow Lite certification from Coursera validates my expertise in deploying ML models on mobile and embedded devices. It covers model optimization for resource-limited environments, ensuring efficient performance and on-device inference for mobile apps, IoT, and edge computing.",
+      image: require("./assets/images/dev.png"),
+      imageAlt: "dev Logo",
+      footerLink: [
+        {
+          name: "Verify Certification",
+          url: "https://coursera.org/verify/JFF5KLVSSY9G"
+        }
+      ]
+    },
+    {
+      title: "Data Pipelines with TensorFlow Data Service",
+      date: "Jun 2023 - Present",
+      subtitle: "Data Pipelines with TensorFlow Data Services certification from Coursera covers building efficient data pipelines for machine learning, optimizing data flow, and enhancing model training and deployment performance.",
+      image: require("./assets/images/d.png"),
+      imageAlt: "d Logo",
+      footerLink: [
+        {
+          name: "Verify Certification",
+          url: "https://coursera.org/verify/69ZCASYV2ANX"
+        }
+      ]
+    },
+    {
+      title: "Browser-based Models with TensorFlow.js",
+      date: "Jun 2023 - Present",
+      subtitle: "Browser-based Models with TensorFlow.js certification from Coursera covers developing and deploying machine learning models in web browsers using TensorFlow.js, enabling real-time client-side applications without server dependency.",
+      image: require("./assets/images/b.png"),
+      imageAlt: "b Logo",
+      footerLink: [
+        {
+          name: "Verify Certification",
+          url: "https://coursera.org/verify/FJ4Y9DC6UBZM"
+        }
+      ]
+    },
+    {
+      title: "Advanced Deployment Scenarios with TensorFlow",
+      date: "Jun 2023 - Present",
+      subtitle: "Advanced Deployment Scenarios with TensorFlow certification from Coursera covers deploying machine learning models at scale, integrating them into production systems, and managing deployment pipelines for real-world solutions.",
+      image: require("./assets/images/a.png"),
+      imageAlt: "a Logo",
+      footerLink: [
+        {
+          name: "Verify Certification",
+          url: "https://coursera.org/verify/TFFLPQZK3J7Y"
+        }
+      ]
+    },
+    {
+      title: "Sequences, Time Series and Prediction",
+      date: "Jun 2023 - Present",
+      subtitle: "Sequences, Time Series, and Prediction certification from Coursera demonstrates my ability to analyze sequential data and forecast time series using deep learning techniques, including RNNs and LSTM models, for accurate time-dependent predictions.",
+      image: require("./assets/images/s.png"),
+      imageAlt: "s Logo",
+      footerLink: [
+        {
+          name: "Verify Certification",
+          url: "https://coursera.org/verify/ZLHBFXBPMYBM"
+        }
+      ]
+    },
+    {
+      title: "Natural Language Processing in TensorFlow",
+      date: "Jun 2023 - Present",
+      subtitle: "Natural Language Processing in TensorFlow certification from Coursera demonstrates my skills in text classification, sentiment analysis, and language generation using TensorFlow, enabling advanced NLP applications.",
+      image: require("./assets/images/n.png"),
+      imageAlt: "n Logo",
+      footerLink: [
+        {
+          name: "Verify Certification",
+          url: "https://coursera.org/verify/W3UWFU52D237"
+        }
+      ]
+    },
+    {
+      title: "Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning",
+      date: "Jun 2023 - Present",
+      subtitle: "The Introduction to TensorFlow for AI, ML, and Deep Learning certification from Coursera demonstrates my foundational knowledge of TensorFlow, covering neural networks, model training, and machine learning algorithms, providing a strong base for advanced AI techniques.",
+      image: require("./assets/images/i.png"),
+      imageAlt: "i Logo",
+      footerLink: [
+        {
+          name: "Verify Certification",
+          url: "https://coursera.org/verify/55NLX86XNRWN"
+        }
+      ]
+    },
+    {
+      title: "Convolutional Neural Networks in TensorFlow",
+      date: "Jun 2023 - Present",
+      subtitle: "The Convolutional Neural Networks in TensorFlow certification from Coursera validates my skills in building CNNs for image classification and computer vision tasks, covering feature extraction and model fine-tuning using TensorFlow.",
+      image: require("./assets/images/conv.png"),
+      imageAlt: "conv Logo",
+      footerLink: [
+        {
+          name: "Verify Certification",
+          url: "https://coursera.org/verify/B9N9GPYDVKZY"
+        }
+      ]
+    },
+    {
+      title: "Unsupervised Learning, Recommenders, Reinforcement Learning",
+      date: "Jun 2023 - Present",
+      subtitle: "The Unsupervised Learning, Recommenders, Reinforcement Learning certification from Coursera showcases my skills in clustering, dimensionality reduction, recommender systems, and reinforcement learning for decision-making in dynamic environments.",
+      image: require("./assets/images/u.png"),
+      imageAlt: "u Logo",
+      footerLink: [
+        {
+          name: "Verify Certification",
+          url: "https://coursera.org/verify/PKCUEVA9KU3H"
+        }
+      ]
+    },
+    {
+      title: "Supervised Machine Learning: Regression and Classification",
+      date: "Jun 2023 - Present",
+      subtitle: "The Supervised Machine Learning: Regression and Classification certification from Coursera validates my skills in building regression and classification models using algorithms like linear and logistic regression to predict values and categorize data.",
+      image: require("./assets/images/su.png"),
+      imageAlt: "su Logo",
+      footerLink: [
+        {
+          name: "Verify Certification",
+          url: "https://coursera.org/verify/KQ5PM67LEXE5"
+        }
+      ]
+    },
+    {
+      title: "Advanced Learning Algorithms",
+      date: "Jun 2023 - Present",
+      subtitle: "The Advanced Learning Algorithms certification from Coursera demonstrates my expertise in deep learning, reinforcement learning, and advanced machine learning techniques for solving complex problems.",
+      image: require("./assets/images/ad.png"),
+      imageAlt: "ad Logo",
+      footerLink: [
+        {
+          name: "Verify Certification",
+          url: "https://coursera.org/verify/END8STVLU2JH"
+        }
+      ]
+    },
+    {
+      title: "Mathematics for Machine Learning: PCA",
+      date: "Jun 2023 - Present",
+      subtitle: "The Mathematics for Machine Learning: PCA certification from Coursera demonstrates my understanding of Principal Component Analysis for dimensionality reduction, enabling efficient data visualization and interpretation.",
+      image: require("./assets/images/m.png"),
+      imageAlt: "m Logo",
+      footerLink: [
+        {
+          name: "Verify Certification",
+          url: "https://coursera.org/verify/F22DH4LGJRNZ"
+        }
+      ]
+    },
+    {
+      title: "Mathematics for Machine Learning: Multivariate Calculus",
+      date: "Jun 2023 - Present",
+      subtitle: "The Mathematics for Machine Learning: Multivariate Calculus certification from Coursera demonstrates my understanding of multivariate calculus, including partial derivatives and gradients, essential for optimizing machine learning models.",
+      image: require("./assets/images/ma.png"),
+      imageAlt: "ma Logo",
+      footerLink: [
+        {
+          name: "Verify Certification",
+          url: "https://coursera.org/verify/WLJLRYBBPR5E"
+        }
+      ]
+    },
+    {
+      title: "Mathematics for Machine Learning: Linear Algebra",
+      date: "Jun 2023 - Present",
+      subtitle: "The Mathematics for Machine Learning: Linear Algebra certification from Coursera demonstrates my understanding of vectors, matrices, and transformations, essential for data processing and model building in machine learning.",
+      image: require("./assets/images/mat.png"),
+      imageAlt: "mat Logo",
+      footerLink: [
+        {
+          name: "Verify Certification",
+          url: "https://coursera.org/verify/P9ULS843TL58"
+        }
+      ]
+    },
+    {
+      title: "Share Data Through the Art of Visualization",
+      date: "Jun 2023 - Present",
+      subtitle: "The Share Data Through the Art of Visualization certification from Coursera demonstrates my ability to create effective data visualizations, helping communicate insights clearly and make complex information more accessible.",
+      image: require("./assets/images/sh.png"),
+      imageAlt: "sh Logo",
+      footerLink: [
+        {
+          name: "Verify Certification",
+          url: "https://coursera.org/verify/3DECJNNEM8DB"
+        }
+      ]
+    },
+    {
+      title: "Process Data from Dirty to Clean",
+      date: "Jun 2023 - Present",
+      subtitle: "The Process Data from Dirty to Clean certification from Coursera showcases my ability to clean and structure messy data, resolving issues like duplicates and inconsistencies to prepare it for analysis.",
+      image: require("./assets/images/p.png"),
+      imageAlt: "p Logo",
+      footerLink: [
+        {
+          name: "Verify Certification",
+          url: "https://coursera.org/verify/PP6FSPDP4TDB"
+        }
+      ]
+    },
+    {
+      title: "Prepare Data for Exploration",
+      date: "Jun 2023 - Present",
+      subtitle: "The Prepare Data for Exploration certification from Coursera demonstrates my ability to clean and organize raw data for analysis, ensuring accuracy and readiness for effective exploration and decision-making.",
+      image: require("./assets/images/pa.png"),
+      imageAlt: "pa Logo",
+      footerLink: [
+        {
+          name: "Verify Certification",
+          url: "https://coursera.org/verify/VWWQHEYA3VLP"
+        }
+      ]
+    },
+    {
+      title: "Foundations: Data, Data, Everywhere",
+      date: "Jun 2023 - Present",
+      subtitle: "The Foundations: Data, Data, Everywhere certification from Coursera showcases my understanding of fundamental data concepts, data analysis processes, and the role of data in decision-making, providing a strong foundation for data analytics.",
+      image: require("./assets/images/pas.png"),
+      imageAlt: "pas Logo",
+      footerLink: [
+        {
+          name: "Verify Certification",
+          url: "https://coursera.org/verify/H854F5BBT5DF"
+        }
+      ]
+    },
+    {
+      title: "Ask Questions to Make Data-Driven Decisions",
+      date: "Jun 2023 - Present",
+      subtitle: "The Ask Questions to Make Data-Driven Decisions certification from Coursera demonstrates my ability to frame questions, interpret insights, and apply analytical thinking to support data-driven decision-making.",
+      image: require("./assets/images/pasa.png"),
+      imageAlt: "pasa Logo",
+      footerLink: [
+        {
+          name: "Verify Certification",
+          url: "https://coursera.org/verify/XM4E7DR3CKZW"
+        }
+      ]
+    },
+    {
+      title: "Analyze Data to Answer Questions",
+      date: "Jun 2023 - Present",
+      subtitle: "The Analyze Data to Answer Questions certification from Coursera highlights my proficiency in using Python for data analysis, including cleaning, transforming, and exploring datasets to derive meaningful insights.",
+      image: require("./assets/images/pasah.png"),
+      imageAlt: "pasah Logo",
+      footerLink: [
+        {
+          name: "Verify Certification",
+          url: "https://coursera.org/verify/9F73Q5Y5USJJ"
+        }
+      ]
+    },
+    {
+      title: "Troubleshooting and Debugging Techniques",
+      date: "Jun 2023 - Present",
+      subtitle: "The Troubleshooting and Debugging Techniques certification from Coursera demonstrates my ability to identify and resolve software issues using systematic debugging and optimization techniques.",
+      image: require("./assets/images/q.png"),
+      imageAlt: "q Logo",
+      footerLink: [
+        {
+          name: "Verify Certification",
+          url: "https://coursera.org/verify/XJG26AMZ4RJL"
+        }
+      ]
+    },
+    {
+      title: "Introduction to Git and GitHub",
+      date: "Jun 2023 - Present",
+      subtitle: "The Introduction to Git and GitHub certification from Coursera demonstrates my proficiency in version control, branch management, and collaboration using GitHub, enhancing teamwork and project organization.",
+      image: require("./assets/images/qw.png"),
+      imageAlt: "qw Logo",
+      footerLink: [
+        {
+          name: "Verify Certification",
+          url: "https://coursera.org/verify/2GGELEG82P59"
+        }
+      ]
+    },
+    {
+      title: "Using Python to Interact with the Operating System",
+      date: "Mei 2023 - Present",
+      subtitle: "The Using Python to Interact with the Operating System certification from Coursera demonstrates my expertise in automating tasks, managing files, and executing system commands using Python.",
+      image: require("./assets/images/pasaha.png"),
+      imageAlt: "pasaha Logo",
+      footerLink: [
+        {
+          name: "Verify Certification",
+          url: "https://coursera.org/verify/JE9HZRYCSZW4"
+        }
+      ]
+    },
+    {
+      title: "Crash Course on Python",
+      date: "Mar 2023 - Present",
+      subtitle: "Crash Course on Python certification from Coursera demonstrates my foundational knowledge of Python, covering variables, loops, functions, and basic data structures. It equips me with essential problem-solving skills for further exploration in programming.",
+      image: require("./assets/images/qwe.png"),
+      imageAlt: "qwe Logo",
+      footerLink: [
+        {
+          name: "Verify Certification",
+          url: "https://coursera.org/verify/YKZSXAWYKGC7"
+        }
+      ]
+    },
+    {
+      title: "Belajar Analisis Data dengan Python",
+      date: "Okt 2023 - Okt 2026",
+      subtitle: "Through the Belajar Analisis Data dengan Python course on Dicoding, I gained skills in data manipulation, visualization, and analysis using Pandas, NumPy, Matplotlib, and Seaborn. This experience enhanced my ability to perform exploratory data analysis (EDA) and make data-driven decisions.",
+      image: require("./assets/images/qwer.png"),
+      imageAlt: "qwer Logo",
+      footerLink: [
+        {
+          name: "Verify Certification",
+          url: "https://dicoding.com/certificates/81P2LGDNQZOY"
+        }
+      ]
+    },
+    {
+      title: "Belajar Machine Learning untuk Pemula",
+      date: "Okt 2023 - Okt 2026",
+      subtitle: "Completed Dicoding's Belajar Machine Learning untuk Pemula course, gaining skills in data preprocessing, model building with Python and Scikit-learn, and techniques like regression, classification, and clustering, providing a solid base for further learning.",
+      image: require("./assets/images/qwert.png"),
+      imageAlt: "qwert Logo",
+      footerLink: [
+        {
+          name: "Verify Certification",
+          url: "https://dicoding.com/certificates/0LZ0QMLWRZ65"
+        }
+      ]
+    },
+    {
+      title: "Memulai Pemrograman dengan Python",
+      date: "Okt 2023 - Okt 2026",
+      subtitle: "Completed Dicoding's Memulai Pemrograman dengan Python course, mastering variables, data types, functions, and error handling. Strengthened programming foundation and enhanced problem-solving skills.",
+      image: require("./assets/images/qwerty.png"),
+      imageAlt: "qwerty Logo",
+      footerLink: [
+        {
+          name: "Verify Certification",
+          url: "https://dicoding.com/certificates/KEXLLYW84XG2"
+        }
+      ]
+    },
+    {
+      title: "Belajar Dasar Structured Query Language (SQL)",
+      date: "Sep 2023 - Sep 2026",
+      subtitle: "Completed Dicoding's Belajar Dasar Structured Query Language (SQL) course, mastering database creation, complex queries, and data management. This experience enhanced my understanding of relational databases and data integrity.",
+      image: require("./assets/images/z.png"),
+      imageAlt: "z Logo",
+      footerLink: [
+        {
+          name: "Verify Certification",
+          url: "https://dicoding.com/certificates/6RPN4YKY9X2M"
+        }
+      ]
+    },
+    {
+      title: "Belajar Dasar Data Science",
+      date: "Sep 2023 - Sep 2026",
+      subtitle: "Completed Dicoding's Belajar Dasar Data Science course, mastering data exploration, preprocessing, visualization, and basic machine learning. I gained proficiency in Python, NumPy, and Pandas for data analysis, building a strong foundation for advanced data science challenges.",
+      image: require("./assets/images/zx.png"),
+      imageAlt: "zx Logo",
+      footerLink: [
+        {
+          name: "Verify Certification",
+          url: "https://dicoding.com/certificates/07Z68W342XQR"
+        }
+      ]
+    },
+    {
+      title: "Staff Ahli Divisi Kesma Formadiksi",
+      date: "Okt 2022 - Present",
+      subtitle: "Resolved welfare issues for 500+ scholars with 90% success. Organized 10+ programs yearly, aiding 300+ participants and 100+ underprivileged individuals. Represented 500+ students in leadership meetings.",
+      image: require("./assets/images/zxc.png"),
+      imageAlt: "zxc Logo",
+      footerLink: [
+        {
+          name: "Verify Certification",
+          url: "https://drive.google.com/file/d/19c7sDdzK9yE_IDtognVNFbfxxBvSOQc5/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      title: "Soft Skills Training Interpersonal Skills and English Skills",
+      date: "Sep 2021 - Present",
+      subtitle: "Completed Soft Skills Training on Interpersonal Skills and English Skills from the Digital Talent Scholarship by the Ministry of Communication and Information Technology in 2021, enhancing communication, teamwork, and English proficiency.",
+      image: require("./assets/images/as.png"),
+      imageAlt: "as Logo",
+      footerLink: [
+        {
+          name: "Verify Certif English",
+          url: "https://drive.google.com/file/d/13LOgiI6dmB9QZqLDDPQAsSxo6V6KGmEJ/view?usp=sharing"
+        },
+        {
+          name: "Verify Certif Interpersonal",
+          url: "https://drive.google.com/file/d/1Ft0HbeBIKeeQDnUO0I2N0DhbvuurCSzX/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      title: "Pestadiksi Committee",
+      date: "Nov 2021 - Present",
+      subtitle: "Served as Moderator for Pekan Prestasi Mahasiswa Bidikmisi/KIP Kuliah dan Afirmasi Pendidikan at Politeknik Negeri Malang in 2021, facilitating discussions and ensuring effective communication among participants.",
+      image: require("./assets/images/asd.png"),
+      imageAlt: "asd Logo",
+      footerLink: [
+        {
+          name: "Verify Certification",
+          url: "https://drive.google.com/file/d/1IfNEmjwr_aSldJ0Hn1gNbCBr0-YFTsme/view?usp=sharing"
         }
       ]
     }
@@ -709,7 +1179,7 @@ const twitterDetails = {
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,

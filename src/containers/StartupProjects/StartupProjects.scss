@@ -95,6 +95,8 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Selalu 3 kolom */
   gap: 1rem;
+  overflow: auto;  /* Tambahkan ini */
+  max-height: 80vh;  /* Tambahkan ini */
 }
 
 
