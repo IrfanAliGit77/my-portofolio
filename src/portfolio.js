@@ -393,6 +393,28 @@ const bigProjects = {
       ]
     },
     {
+      image: require("./assets/images/bp.png"),
+      projectName: "BPPTIK Web",
+      projectDesc: "Developed the BPPTIK Web for KOMINFO for the Junior Web Developer certification from LSP. It featured menus like Home, Vision and Mission, Structure, Scope, About, and more, with full CRUD functionalities, demonstrating my web development and data management skills.",
+      footerLink: [
+        {
+          name: "Visit Project",
+          url: "https://github.com/IrfanAliGit77/jwd-lsp.git"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/stis.png"),
+      projectName: "Stisla Mobile Apk",
+      projectDesc: "Transformed Stisla from Laravel into a mobile app using Flutter and integrated it with APIs. It features login, registration, profile management, dashboard, and full CRUD functionalities. The project also incorporated various components, showcasing my mobile development and API integration skills.",
+      footerLink: [
+        {
+          name: "Visit Project",
+          url: "https://github.com/IrfanAliGit77/flutter-api-stisla-apk.git"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/pyt.png"),
       projectName: "NLP + CNN - Machine Learning",
       projectDesc: "This Machine Learning project powers a tourism search engine using NLP, sentiment analysis, and CNN. It filters results by category, location, ratings, and user reviews, with personalized recommendations and a ranking algorithm for relevance.",
@@ -556,6 +578,17 @@ const bigProjects = {
           url: "https://www.linkedin.com/in/muh-irfan-ali77/overlay/experience/2563566810/multiple-media-viewer/?profileId=ACoAADgndQYBqU6oi00BNc6VNsSHSJyvS_mp2lw&treasuryMediaId=1738016937087"
         }
       ]
+    },
+    {
+      image: require("./assets/images/bo.png"),
+      projectName: "MC at Bogie Fest PT INKA",
+      projectDesc: "Served as MC at Bogifest PT INKA, ensuring a seamless event flow by introducing speakers and distinguished guests. Maintained audience engagement and enthusiasm, contributing to the event's success and positive atmosphere.",
+      footerLink: [
+        {
+          name: "Visit Explanation",
+          url: "https://www.linkedin.com/in/muh-irfan-ali77/overlay/experience/2238203923/multiple-media-viewer/?profileId=ACoAADgndQYBqU6oi00BNc6VNsSHSJyvS_mp2lw&treasuryMediaId=1737736267728"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -630,7 +663,7 @@ const achievementSection = {
       ]
     },
     {
-      title: "Junior Web Developer",
+      title: "Junior Web Developer - BNSP",
       date: "Aug 2021 - Aug 2025",
       subtitle: "Earned the Junior Web Developer Certification from BNSP, validating my skills in HTML, CSS, JavaScript, and basic back-end development. It showcases my ability to build responsive websites, implement interactive features, and manage web servers, demonstrating readiness for professional web development roles.",
       image: require("./assets/images/jwd.png"),
@@ -1087,6 +1120,45 @@ const achievementSection = {
           url: "https://drive.google.com/file/d/1IfNEmjwr_aSldJ0Hn1gNbCBr0-YFTsme/view?usp=sharing"
         }
       ]
+    },
+    {
+      title: "Junior Web Developer - BPPTIK",
+      date: "Jul 2021 - Present",
+      subtitle: "Earned the Junior Web Developer certification from BPPTIK, mastering UI implementation, structured programming, and best coding practices. I also learned to use libraries, understand ICT strategies, and develop effective communication and work ethics.",
+      image: require("./assets/images/ds.png"),
+      imageAlt: "ds Logo",
+      footerLink: [
+        {
+          name: "Verify Certification",
+          url: "https://drive.google.com/file/d/1wmZEsK32eDSIpMbeR_ER5MrpL0YnrlU1/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      title: "National Seminar Committee 2021",
+      date: "Jul 2021 - Present",
+      subtitle: "Received a certificate as a moderator for the National Seminar on Cyber Security Strategy and Ethical Hacking to Ensure the Security of Information Systems at Politeknik Negeri Malang in 2021, facilitating insightful discussions on cybersecurity trends and best practices.",
+      image: require("./assets/images/dsd.png"),
+      imageAlt: "dsd Logo",
+      footerLink: [
+        {
+          name: "Verify Certification",
+          url: "https://drive.google.com/file/d/1v9rK3L2DLqTTN4JZ2gi247YgR2M4u4Gq/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      title: "ICT Training",
+      date: "Okt 2020 - Present",
+      subtitle: "Completed the ICT Training on IT Business Challenges in the 4.0 Era by Diskominfotik Kota Blitar, gaining insights into digital transformation, emerging technologies, and strategies to navigate competitive IT landscapes effectively.",
+      image: require("./assets/images/dsa.png"),
+      imageAlt: "dsa Logo",
+      footerLink: [
+        {
+          name: "Verify Certification",
+          url: "https://drive.google.com/file/d/1qKIjzT6mzFP-qoX_f-Mf4flHfKzsH1ZR/view?usp=sharing"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -1095,22 +1167,28 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
+  title: "Articles 📃",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "Passionate about creating innovative solutions, I enjoy sharing knowledge and insights gained from my development journey.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://www.linkedin.com/pulse/adaptability-resilience-5-ways-muh-irfan-ali/?trackingId=YDQCPNDVl6B41Y0pQsh98w%3D%3D",
+      title: "Adaptability & Resilience : The 5 Ways of Adaptability !",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Here are 5 Ways of Adaptation that I have experienced and continue to develop ==> "
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://www.rtikblitar.or.id/2023/10/suasana-festival-tik-2023-di-semarang.html",
+      title: "Suasana Festival TIK 2023 di Semarang: Manunggaling Kawula Digital",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Tidak ada kata terlambat untuk merayakan teknologi, inovasi, dan semangat kolaborasi. Semarang, kota yang terletak di jantung Pulau Jawa, menjadi saksi bagi Festival TIK 2023 yang mengusung semangat Manunggaling Kawula Digital. Acara ini menjadi panggung bagi ratusan relawan teknologi, dan penggiat IT untuk berkumpul, berbagi ide, dan merayakan kemajuan teknologi informasi dan komunikasi."
+    },
+    {
+      url: "https://www.rtikblitar.or.id/2023/10/menggali-ilmu-dan-pengalaman-di-festik.html",
+      title: "Menggali Ilmu dan Pengalaman di FesTIK Universitas PGRI Semarang",
+      description:
+        "Semarang - Festival Teknologi dan Informasi Komunikasi (FesTIK) di Universitas PGRI Semarang telah sukses digelar pada Jumat dan Sabtu, 27-28 Oktober 2023. Acara ini menjadi panggung bagi berbagai workshop yang sangat informatif dan bermanfaat bagi para peserta. Salah satu workshop yang menonjol adalah yang diselenggarakan oleh PANDI dan Qwords.com, yang memberikan wawasan penting tentang branding diri dan aspek teknis dalam dunia internet."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -1132,7 +1210,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -1145,7 +1223,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -1154,7 +1232,7 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false// Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
@@ -1176,7 +1254,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
