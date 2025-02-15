@@ -61,8 +61,8 @@ This portfolio is hosted using **GitHub Pages** and can be accessed at:
 
 ## 📬 Contact  
 Interested in collaborating or just want to say hi? Reach out to me at:  
-- **Email:** [muhirfanali77@gmail.com](mailto:muhirfanali77@gmail.com)  
-- **LinkedIn:** [linkedin.com/in/irfanali](https://linkedin.com/in/irfanali)  
+- **Email:** [Email Irfan Ali](mailto:muhirfanali77@gmail.com)  
+- **LinkedIn:** [Linked In Irfan Ali](https://www.linkedin.com/in/muh-irfan-ali77/)  
 
 ---
 
