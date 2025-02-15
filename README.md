@@ -6,7 +6,7 @@
 
 <p align="center">
   <kbd>
-<img src="[https://user-images.githubusercontent.com/53429438/106779355-e9cd9e80-666c-11eb-9417-8a4b54441bc6.gif](https://github.com/user-attachments/assets/45688fa1-4e7a-4805-bf8b-aafef1316a93)"></img>
+<img src="https://github.com/user-attachments/assets/45688fa1-4e7a-4805-bf8b-aafef1316a93"></img>
   </kbd>
 </p>
 
