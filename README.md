@@ -1,9 +1,6 @@
 # Muh. Irfan Ali Portfolio (my-portofolio) ⚡️ 
 **[https://irfanaligit77.github.io/my-portofolio/](https://irfanaligit77.github.io/my-portofolio/)**
 
-## A clean, beautiful and responsive portfolio template for Developers!
-
-
 <p align="center">
   <kbd>
 <img src="https://github.com/user-attachments/assets/45688fa1-4e7a-4805-bf8b-aafef1316a93"></img>
